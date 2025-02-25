@@ -62,3 +62,20 @@ curl -XDELETE http://127.0.0.1:5000/reviews/<id>
 
 curl http://127.0.0.1:5000/reviews
 ```
+
+windows friendly curl commands
+```
+curl http://127.0.0.1:5000/reviews
+
+curl -XPOST -H "Content-Type: application/json" -d "{\"professorName\": \"David Taylor\", \"courseName\": \"DSA\", \"rating\": 3, \"tags\": [\"java\"], \"takeAgain\": true, \"grade\": \"B-\", \"content\": \"hard course\" }" http://127.0.0.1:5000/reviews
+
+curl http://127.0.0.1:5000/reviews/<id>
+
+curl -XPUT -H "Content-Type: application/json" -d "{\"professorName\": \"David Taylor\", \"courseName\": \"DSA\", \"rating\": 3, \"tags\": [\"java\"], \"takeAgain\": true, \"grade\": \"A-\", \"content\": \"easy course\" }" http://127.0.0.1:5000/reviews/<id>
+
+curl http://127.0.0.1:5000/reviews/<id>
+
+curl -XDELETE http://127.0.0.1:5000/reviews/<id>
+
+curl http://127.0.0.1:5000/reviews
+```
