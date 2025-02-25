@@ -63,7 +63,7 @@ curl -XDELETE http://127.0.0.1:5000/reviews/<id>
 curl http://127.0.0.1:5000/reviews
 ```
 
-windows friendly curl commands
+Windows friendly curl commands:
 ```
 curl http://127.0.0.1:5000/reviews
 
